@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+	font-size: 17px;
+	color: #333;
+	font-family: 'Poppins', sans-serif;
+}
+img{
+	max-width: 100%;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.align_center{
+	align-items: center;
+}
+
+/**header*/
+.red{}
+.red a{background: #e14b45;text-align: center;padding: 7px;color: #fff;font-size: 14px;display: block;text-decoration: none; transition-duration: 0.2s;}
+.red a:hover{background-color: #e76f6a;}
+header{background: #F9CA33;padding-left: 40px;padding-right: 40px;}
+.logo{width: 30%;}
+.logo a:hover{opacity: 0.5;}
+.logo img{width: 180px;}
+
+nav{width: 53%;}
+nav ul{}
+nav ul li{list-style: none;}
+nav ul li a{text-decoration: none;padding: 20px;font-weight: 600;color: #2C3E50;font-size: 17px;}
+nav ul li a:hover{opacity: 0.5;}
+.buy{width: 15%;}
+.buy ul{justify-content: flex-end;}
+.buy ul li{list-style: none;}
+.buy ul li a{padding: 15px;font-size: 27px;color: #2C3E50;}
+.buy ul li a:hover{opacity: 0.5;}
+/**header*/
+
+
+/**banner section*/
+.banner_section{background: #F9CA33;/*! padding: 80px; */}
+.banner{}
+.banner h1{font-size: 55px;color: #fff;text-align: center;padding: 90px;}
+.banner a{font-size: 20px;font-weight: bold;text-decoration: none;color: #fff;background: rgba(51, 132, 255, 1);padding: 10px 100px;display: inline-block;border-radius: 5px;margin-top: 15px;}
+.banner a:hover{opacity: 0.7;}
+/**banner section*/
+
+
+.duwell_blog{padding: 50px 0;}
+.col{}
+.col_1{width: 50%;padding: 10px;}
+.col_1 h3{font-size: 30px;padding: 15px 0;}
+.col_1 p{max-width: 447px;}
+.col_1 a{}
+.col_1 img{}
+.col_9{}
+.col_9 h3{font-size: 30px;padding: 15px 51px;}
+.col_9 p{max-width: 479px;padding: 0px 51px;}
+
+
+
+
+/**nothing sectin**/
+.nothing_section{background: #F9F9F9;}
+.nothing{}
+.nothing h6{text-align: center;padding-top: 40px;font-size: 37px;font-weight: 700;color: #3B4A61;}
+
+
+.stuff_section{background: #F9F9F9;}
+.stuff{width: 1200px;margin: auto;}
+.col_4{width: 33.33%;padding: 24px;text-align: center;}
+.col_4 a{}
+.col_4 img{width: 80%;}
+.col_4 strong{padding: 15px;display: inline-block;font-size: 28px;color: #3B4A61;}
+.col_4 p{font-size: 16px;max-width: 700px;color: #333;}
+/**nothing sectin**/
+
+
+/**learn_more_section_3*/
+.learn_more_section_3{background: #F9F9F9;padding-top: 15px;padding-bottom: 40px;}
+.learn_more_3{width: 1200px;margin: auto;}
+.learn_more_3 a{text-decoration: none;color: #F48D09;padding: 11px 90px;font-size: 19px;font-weight: 500; transition-duration: 0.4s;}
+.learn_more_3 a:hover{opacity: 0.6;}
+/**learn_more_section_3*/
+
+
+/**leaf_section*/
+.leaf_section{}
+.leaf{}
+.leaf a{}
+.leaf img{vertical-align: middle;}
+/**leaf_section*/
+
+
+/**single blog section*/
+.single_blog{text-align: center;}
+.single_blog h2{text-align: center;padding: 25px;padding-top: 88px;font-size: 40px;color: #2C3E50;}
+.single_blog p{text-align: center;color: #444242;padding-bottom: 30px;}
+.single_2 p{}
+.single_blog a{font-size: 20px;font-weight: bold;text-decoration: none;color: #fff;background: rgba(51, 132, 255, 1);padding: 10px 100px;display: inline-block;border-radius: 5px;margin-top: 10px; text-align: center;margin-bottom: 114px;flex-wrap: wrap;justify-content: center;}
+.single_blog a:hover{opacity: 0.7;}
+/**single blog section*/
+
+
+
+/**footer section**/
+footer{background: #374756;}
+footer p{text-align: center;max-width: 900px;border: 2px solid #6d6f70;padding: 30px;color: #6d6f70;width: 1200px;margin: auto;font-weight: 500;}
+footer strong{font-size: 14px;color: #fff;font-weight: 300;text-align: center;/*! width: 1200px; */margin: auto;display: block;padding: 20px;}
+.social{width: 1300px;margin: auto;}
+.footerlogo{width: 15%;margin-right: 140px;margin-bottom: 78px;}
+.footerlogo a{}
+.footerlogo a:hover{opacity: 0.7;}
+.footerlogo img{width: 100%;}
+
+.col_5{width: 23%;padding: 30px 0;}
+.col_5 ul{padding: 25px 0;}
+.col_5 ul li{list-style: none;padding: 8px 0;}
+.col_5 ul li a{color: #fff;text-decoration: none;font-size: 18px;font-weight: 500;}
+.col_5 ul li a:hover{opacity: 0.7;}
+/**footer section**/
